@@ -1,0 +1,1727 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ios",
+				"iostream"
+			],
+			[
+				"Key",
+				"KeyboardInterrupt"
+			],
+			[
+				"siz",
+				"_size"
+			],
+			[
+				"gc",
+				"gcd_value"
+			],
+			[
+				"so",
+				"souoc"
+			],
+			[
+				"upd",
+				"update_moving"
+			],
+			[
+				"pro",
+				"program"
+			],
+			[
+				"abst",
+				"abstractmethod"
+			],
+			[
+				"fod",
+				"FoodManager"
+			],
+			[
+				"ab",
+				"abstractmethod"
+			],
+			[
+				"abs",
+				"abstractmethod"
+			],
+			[
+				"E",
+				"BaseException"
+			],
+			[
+				"init",
+				"initial_length"
+			],
+			[
+				"r",
+				"render"
+			],
+			[
+				"render_",
+				"render_tail"
+			],
+			[
+				"_",
+				"_row"
+			],
+			[
+				"co",
+				"_col"
+			],
+			[
+				"get",
+				"get_pressed"
+			],
+			[
+				"absr",
+				"abstractmethod"
+			],
+			[
+				"classm",
+				"classmethod"
+			],
+			[
+				"classme",
+				"classmethod"
+			],
+			[
+				"clas",
+				"classmethod"
+			],
+			[
+				"_lo",
+				"_loop"
+			],
+			[
+				"class",
+				"classmethod"
+			],
+			[
+				"ha",
+				"handle_fps"
+			],
+			[
+				"be",
+				"theBest"
+			],
+			[
+				"fli",
+				"file_base_name"
+			],
+			[
+				"max",
+				"maxEle"
+			],
+			[
+				"bes",
+				"bestFreq"
+			],
+			[
+				"un",
+				"unordered_map"
+			],
+			[
+				"ar",
+				"array_1d"
+			],
+			[
+				"arr",
+				"array_1d"
+			],
+			[
+				"sr",
+				"surrounds"
+			],
+			[
+				"is",
+				"isLowest"
+			],
+			[
+				"arry",
+				"array_2d"
+			],
+			[
+				"sn",
+				"snums"
+			],
+			[
+				"user",
+				"userService"
+			],
+			[
+				"Get",
+				"GetById"
+			],
+			[
+				"Inval",
+				"InvalidOperationException"
+			],
+			[
+				"Invad",
+				"InvalidOperationException"
+			],
+			[
+				"Inva",
+				"InvalidOperationException"
+			],
+			[
+				"rem",
+				"Remove"
+			],
+			[
+				"Gui",
+				"GuidIdGenerator"
+			],
+			[
+				"id",
+				"idGenerator"
+			],
+			[
+				"Oper",
+				"InvalidOperationException"
+			],
+			[
+				"T",
+				"ToString"
+			],
+			[
+				"User",
+				"UserRepository"
+			],
+			[
+				"PAS",
+				"password"
+			],
+			[
+				"Is",
+				"IsNullOrWhiteSpace"
+			],
+			[
+				"Exception",
+				"ArgumentNullException"
+			],
+			[
+				"conta",
+				"ContainsKey"
+			],
+			[
+				"F",
+				"FirstOrDefault<>"
+			],
+			[
+				"Normal",
+				"NormalUser(String id, String name, String password)"
+			],
+			[
+				"Wrt",
+				"WriteLine"
+			],
+			[
+				"add",
+				"addNormalUserAccount(String name, String password) : void"
+			],
+			[
+				"Hash",
+				"HashMap"
+			],
+			[
+				"Try",
+				"TryGetValue"
+			],
+			[
+				"Tryg",
+				"TryGetValue"
+			],
+			[
+				"Illegal",
+				"IllegalArgumentException"
+			],
+			[
+				"Ille",
+				"IllegalArgumentException"
+			],
+			[
+				"Ill",
+				"IllegalAccessException"
+			],
+			[
+				"Arg",
+				"IllegalArgumentException"
+			],
+			[
+				"vau",
+				"Values"
+			],
+			[
+				"Add",
+				"AddNormalUserAccount"
+			],
+			[
+				"IsNu",
+				"IsNullOrWhiteSpace"
+			],
+			[
+				"Argu",
+				"ArgumentException"
+			],
+			[
+				"Studen",
+				"StudentManager"
+			],
+			[
+				"exc",
+				"Exception"
+			],
+			[
+				"ill",
+				"IllegalStateException"
+			],
+			[
+				"in",
+				"increaseAge() : void"
+			],
+			[
+				"excep",
+				"RuntimeException"
+			],
+			[
+				"Ari",
+				"ArgumentException"
+			],
+			[
+				"Over",
+				"OverflowException"
+			],
+			[
+				"exce",
+				"OverflowException"
+			],
+			[
+				"stud",
+				"students"
+			],
+			[
+				"stu",
+				"student"
+			],
+			[
+				"vo",
+				"Override"
+			],
+			[
+				"Cus",
+				"Customers"
+			],
+			[
+				"con",
+				"ContainsKey"
+			],
+			[
+				"Write",
+				"WriteLine"
+			],
+			[
+				"W",
+				"WriteLine"
+			],
+			[
+				"Inf",
+				"InfoStream"
+			],
+			[
+				"Info",
+				"InfoStream"
+			],
+			[
+				"Accou",
+				"Accounts"
+			],
+			[
+				"Inter",
+				"InterestRate"
+			],
+			[
+				"int",
+				"interestRate"
+			],
+			[
+				"Accu",
+				"AccountNumber"
+			],
+			[
+				"Acc",
+				"AccountNumber"
+			],
+			[
+				"Bank",
+				"BankException"
+			],
+			[
+				"Runtim",
+				"RuntimeException"
+			],
+			[
+				"sho",
+				"showAllAccounts() : void"
+			],
+			[
+				"Chechk",
+				"CheckingAccount(${1:accountNumber}, ${2:balance}, ${3:monthlyFee})(String accountNumber, double balance, double monthlyFee)"
+			],
+			[
+				"Check",
+				"CheckingAccount"
+			],
+			[
+				"interr",
+				"interestRate"
+			],
+			[
+				"inter",
+				"interestRate"
+			],
+			[
+				"In",
+				"Invalid"
+			],
+			[
+				"print",
+				"println(char[] x) : void"
+			],
+			[
+				"s",
+				"showAllAccounts() : void"
+			],
+			[
+				"retr",
+				"return"
+			],
+			[
+				"account",
+				"accountNumber"
+			],
+			[
+				"accoun",
+				"accountNumber"
+			],
+			[
+				"Account",
+				"Account"
+			],
+			[
+				"scr",
+				"scrollDisplayLeftLCD"
+			],
+			[
+				"blu",
+				"skyblue"
+			],
+			[
+				"b",
+				"blueviolet"
+			],
+			[
+				"blue",
+				"aliceblue"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"jus",
+				"justify-items"
+			],
+			[
+				"alin",
+				"align-self"
+			],
+			[
+				"space",
+				"space-around"
+			],
+			[
+				"spa",
+				"space-around"
+			],
+			[
+				"raw",
+				"raw_hwnd_editor"
+			],
+			[
+				"unor",
+				"unordered_set"
+			],
+			[
+				"hash",
+				"hash_nums2"
+			],
+			[
+				"sum",
+				"sumSpecialReciprocalArrange"
+			],
+			[
+				"vi",
+				"blueviolet"
+			],
+			[
+				"WM",
+				"WM_GLOBAL_KEYDOWN"
+			],
+			[
+				"snip",
+				"snippet_web"
+			],
+			[
+				"Main",
+				"mainHwnd"
+			],
+			[
+				"raw_",
+				"raw_webhtml"
+			],
+			[
+				"vio",
+				"blueviolet"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"Hello",
+				"HelloWorldAnonymousClasses"
+			],
+			[
+				"Hell",
+				"HelloWorldAnonymousClasses"
+			],
+			[
+				"pla",
+				"play_instantvideo"
+			],
+			[
+				"as",
+				"ascii_from_video"
+			],
+			[
+				"defa",
+				"DEFAULT_ASCII_CHARACTERS_RANGE"
+			],
+			[
+				"de",
+				"DEFAULT_TEXT_DISPLAY_TIME_INTERRUPTION"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/main.cpp",
+			"redo_stack":
+			[
+				[
+					56,
+					1,
+					"left_delete",
+					null,
+					"AQAAADoAAAAAAAAAXAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOgAAAAAAAAA6AAAAAAAAAAAAAAAAAPC/"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 105,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": "#include"
+					},
+					"CAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAIAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAAgAAAAAAAAACQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"insert_snippet",
+					{
+						"contents": "<$0>"
+					},
+					"AQAAAAkAAAAAAAAACwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACQAAAAAAAAAJAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "iostr"
+					},
+					"BQAAAAoAAAAAAAAACwAAAAAAAAAAAAAACwAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAAA0AAAAAAAAAAAAAAA0AAAAAAAAADgAAAAAAAAAAAAAADgAAAAAAAAAPAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACgAAAAAAAAAKAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"insert_completion",
+					{
+						"completion": "lsp_select_completion {\"index\":58,\"session_name\":\"clangd\"}",
+						"format": "command",
+						"keep_prefix": true,
+						"must_insert": false,
+						"query_change_id":
+						[
+							3,
+							8,
+							1
+						],
+						"trigger": "iostream>"
+					},
+					"BgAAAA4AAAAAAAAADgAAAAAAAAABAAAAcg0AAAAAAAAADQAAAAAAAAABAAAAdAwAAAAAAAAADAAAAAAAAAABAAAAcwsAAAAAAAAACwAAAAAAAAABAAAAbwoAAAAAAAAACgAAAAAAAAACAAAAaT4KAAAAAAAAABMAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADwAAAAAAAAAPAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": "\n\n\nint"
+					},
+					"BgAAABMAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAVAAAAAAAAAAAAAAAVAAAAAAAAABYAAAAAAAAAAAAAABYAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABkAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEwAAAAAAAAATAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"insert",
+					{
+						"characters": " main"
+					},
+					"BQAAABkAAAAAAAAAGgAAAAAAAAAAAAAAGgAAAAAAAAAbAAAAAAAAAAAAAAAbAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAHQAAAAAAAAAAAAAAHQAAAAAAAAAeAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGQAAAAAAAAAZAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAB4AAAAAAAAAIAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHgAAAAAAAAAeAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAACAAAAAAAAAAIQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAACEAAAAAAAAAIwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIQAAAAAAAAAhAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"AwAAACIAAAAAAAAAIwAAAAAAAAAAAAAAIwAAAAAAAAAkAAAAAAAAAAAAAAAjAAAAAAAAACQAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIgAAAAAAAAAiAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": "std::cout"
+					},
+					"CQAAACQAAAAAAAAAJQAAAAAAAAAAAAAAJQAAAAAAAAAmAAAAAAAAAAAAAAAmAAAAAAAAACcAAAAAAAAAAAAAACcAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAApAAAAAAAAAAAAAAApAAAAAAAAACoAAAAAAAAAAAAAACoAAAAAAAAAKwAAAAAAAAAAAAAAKwAAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAAC0AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAJAAAAAAAAAAkAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": " <<"
+					},
+					"AwAAAC0AAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAvAAAAAAAAAAAAAAAvAAAAAAAAADAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAALQAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAADAAAAAAAAAAMQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAADEAAAAAAAAAMwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMQAAAAAAAAAxAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": "hello"
+					},
+					"BQAAADIAAAAAAAAAMwAAAAAAAAAAAAAAMwAAAAAAAAA0AAAAAAAAAAAAAAA0AAAAAAAAADUAAAAAAAAAAAAAADUAAAAAAAAANgAAAAAAAAAAAAAANgAAAAAAAAA3AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMgAAAAAAAAAyAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					23,
+					1,
+					"insert",
+					{
+						"characters": " <<"
+					},
+					"AwAAADgAAAAAAAAAOQAAAAAAAAAAAAAAOQAAAAAAAAA6AAAAAAAAAAAAAAA6AAAAAAAAADsAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOAAAAAAAAAA4AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"insert",
+					{
+						"characters": " std::endl;"
+					},
+					"CwAAADsAAAAAAAAAPAAAAAAAAAAAAAAAPAAAAAAAAAA9AAAAAAAAAAAAAAA9AAAAAAAAAD4AAAAAAAAAAAAAAD4AAAAAAAAAPwAAAAAAAAAAAAAAPwAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAEEAAAAAAAAAAAAAAEEAAAAAAAAAQgAAAAAAAAAAAAAAQgAAAAAAAABDAAAAAAAAAAAAAABDAAAAAAAAAEQAAAAAAAAAAAAAAEQAAAAAAAAARQAAAAAAAAAAAAAARQAAAAAAAABGAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOwAAAAAAAAA7AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": "\nreturn"
+					},
+					"BwAAAEYAAAAAAAAASAAAAAAAAAAAAAAASAAAAAAAAABJAAAAAAAAAAAAAABJAAAAAAAAAEoAAAAAAAAAAAAAAEoAAAAAAAAASwAAAAAAAAAAAAAASwAAAAAAAABMAAAAAAAAAAAAAABMAAAAAAAAAE0AAAAAAAAAAAAAAE0AAAAAAAAATgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARgAAAAAAAABGAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					26,
+					1,
+					"insert",
+					{
+						"characters": " -;"
+					},
+					"AwAAAE4AAAAAAAAATwAAAAAAAAAAAAAATwAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAFEAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATgAAAAAAAABOAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					2,
+					"left_delete",
+					null,
+					"AgAAAFAAAAAAAAAAUAAAAAAAAAABAAAAO08AAAAAAAAATwAAAAAAAAABAAAALQ",
+					"AQAAAAAAAAABAAAAUQAAAAAAAABRAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": "0;"
+					},
+					"AgAAAE8AAAAAAAAAUAAAAAAAAAAAAAAAUAAAAAAAAABRAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATwAAAAAAAABPAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					32,
+					1,
+					"insert",
+					{
+						"characters": "\n#include"
+					},
+					"CQAAABMAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAVAAAAAAAAAAAAAAAVAAAAAAAAABYAAAAAAAAAAAAAABYAAAAAAAAAFwAAAAAAAAAAAAAAFwAAAAAAAAAYAAAAAAAAAAAAAAAYAAAAAAAAABkAAAAAAAAAAAAAABkAAAAAAAAAGgAAAAAAAAAAAAAAGgAAAAAAAAAbAAAAAAAAAAAAAAAbAAAAAAAAABwAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAEwAAAAAAAAATAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAABwAAAAAAAAAHQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHAAAAAAAAAAcAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					34,
+					1,
+					"insert_snippet",
+					{
+						"contents": "<$0>"
+					},
+					"AQAAAB0AAAAAAAAAHwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHQAAAAAAAAAdAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					35,
+					1,
+					"insert",
+					{
+						"characters": "s"
+					},
+					"AQAAAB4AAAAAAAAAHwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHgAAAAAAAAAeAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					36,
+					1,
+					"left_delete",
+					null,
+					"AQAAAB4AAAAAAAAAHgAAAAAAAAABAAAAcw",
+					"AQAAAAAAAAABAAAAHwAAAAAAAAAfAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					37,
+					1,
+					"insert",
+					{
+						"characters": "SDL"
+					},
+					"AwAAAB4AAAAAAAAAHwAAAAAAAAAAAAAAHwAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAACEAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHgAAAAAAAAAeAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					38,
+					1,
+					"insert_completion",
+					{
+						"completion": "lsp_select_completion {\"index\":0,\"session_name\":\"clangd\"}",
+						"format": "command",
+						"keep_prefix": true,
+						"must_insert": false,
+						"query_change_id":
+						[
+							30,
+							37,
+							3
+						],
+						"trigger": "SDL3/"
+					},
+					"AgAAAB4AAAAAAAAAHgAAAAAAAAAEAAAAU0RMPh4AAAAAAAAAIwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIQAAAAAAAAAhAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					39,
+					1,
+					"left_delete",
+					null,
+					"AQAAACIAAAAAAAAAIgAAAAAAAAABAAAALw",
+					"AQAAAAAAAAABAAAAIwAAAAAAAAAjAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					40,
+					1,
+					"insert",
+					{
+						"characters": "."
+					},
+					"AQAAACIAAAAAAAAAIwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIgAAAAAAAAAiAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					41,
+					1,
+					"left_delete",
+					null,
+					"AQAAACIAAAAAAAAAIgAAAAAAAAABAAAALg",
+					"AQAAAAAAAAABAAAAIwAAAAAAAAAjAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					42,
+					1,
+					"insert",
+					{
+						"characters": ">"
+					},
+					"AQAAACIAAAAAAAAAIwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIgAAAAAAAAAiAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					43,
+					1,
+					"left_delete",
+					null,
+					"AQAAACIAAAAAAAAAIgAAAAAAAAABAAAAPg",
+					"AQAAAAAAAAABAAAAIwAAAAAAAAAjAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					44,
+					1,
+					"insert",
+					{
+						"characters": "/"
+					},
+					"AQAAACIAAAAAAAAAIwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIgAAAAAAAAAiAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					46,
+					1,
+					"insert_completion",
+					{
+						"completion": "lsp_select_completion {\"index\":1,\"session_name\":\"clangd\"}",
+						"format": "command",
+						"keep_prefix": true,
+						"must_insert": true,
+						"query_change_id":
+						[
+							37,
+							44,
+							1
+						],
+						"trigger": "SDL.h>"
+					},
+					"AQAAACMAAAAAAAAAKQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIwAAAAAAAAAjAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Build",
+					""
+				],
+				[
+					"Build",
+					"Run"
+				]
+			],
+			[
+				"Build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Build",
+					""
+				],
+				[
+					"Build",
+					"Run"
+				],
+				[
+					"Build",
+					"Run (Default)"
+				]
+			],
+			[
+				"Build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Build C#",
+					""
+				],
+				[
+					"Build C#",
+					"run"
+				]
+			],
+			[
+				"Build C#",
+				"run"
+			]
+		],
+		[
+			[
+				[
+					"Build C#",
+					""
+				],
+				[
+					"Build C#",
+					"run"
+				],
+				[
+					"Packages/User/Build C# Single file.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Build C# Single file.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Build C#",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Build Debug",
+					""
+				],
+				[
+					"Build Debug",
+					"Run"
+				]
+			],
+			[
+				"Build Debug",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Build Java",
+					""
+				],
+				[
+					"Build Java",
+					"run"
+				]
+			],
+			[
+				"Build Java",
+				"run"
+			]
+		],
+		[
+			[
+				[
+					"Build Java",
+					""
+				],
+				[
+					"Build Java",
+					"run"
+				],
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Build Java",
+				"run"
+			]
+		],
+		[
+			[
+				[
+					"Build Uno Project",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/Build C++ Single file.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Build C++ Single file.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Build Uno Project",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/Build C++ Single file.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Build C++ Single file.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/Build C++ Single file.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packins",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"LSP: Restart Server"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"packain",
+				"Package Control: Install Package"
+			],
+			[
+				"rest",
+				"LSP: Restart Server"
+			],
+			[
+				"viewpack",
+				"View Package File"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"remove",
+				"Package Control: Advanced Remove Packages"
+			],
+			[
+				"packageview",
+				"PackageResourceViewer: Extract All Packages"
+			],
+			[
+				"package vi",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package contro",
+				"Package Control: List Packages"
+			],
+			[
+				"package vie",
+				"PackageResourceViewer: Extract All Packages"
+			],
+			[
+				"vi",
+				"View Package File"
+			],
+			[
+				"packga",
+				"Package Control: Remove Package"
+			],
+			[
+				"view",
+				"View Package File"
+			],
+			[
+				"res",
+				"LSP: Restart Server"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: For"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"lsp",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"",
+				"Color Picker: Insert Color"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packagere",
+				"PackageResourceViewer: Open Resource"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"py -u C:\\Users\\vinhv\\Documents\\hello.py",
+			"os.getcwd()",
+			"import os",
+			"shutil.rmtree('./bin/Release')",
+			"shutil.rmtree('bin\\Release')",
+			"shutil.rmtree('bin/Release')",
+			"shutil.rmtree('bin\\\\Release')",
+			"Path('bin/Release').rmdir()",
+			"Path('bin/Release').rmkdir()",
+			"shutil.rmdir('bin\\\\Release')",
+			"import shutil",
+			"from pathlib import Path",
+			"os.getcwd()",
+			"os.rename('Stack.cs', 'acme.cs')",
+			"import os",
+			"Path('Stack.cs').rename('acme.cs')",
+			"from pathlib import Path",
+			"os.system('echo hello')",
+			"import os",
+			"system('echo hello')",
+			"import sys",
+			"file.close()",
+			"file = open('examples/02-primitive.c', 'w')",
+			"file = open('examples/02-primitive.c')",
+			"file.close()",
+			"file = open('tests/ChangeColorBG.cpp', 'w')",
+			"from pathlib import Path",
+			"file.close()",
+			"file = open('tests/callbacks_version.cpp', 'w')",
+			"Path('src/_sketching.cpp').unlink()",
+			"from pathlib import Path",
+			"Path('src/_sketching.cpp').unlink()",
+			"shutil.rmtree('src/_sketching.cpp')",
+			"import shutil",
+			"file.close()",
+			"file = open('examples/01-clear.c', 'w')",
+			"Path('examples').mkdir()",
+			"Path('test').rename('tests')",
+			"Path('test').mkdir()",
+			"from pathlib import Path",
+			"Path('bin/release/res').mkdir()",
+			"Path('bin/debug/res').mkdir()",
+			"shutil.rmtree(Path('test'))",
+			"import shutil",
+			"Path('test').rmdir()",
+			"Path('test').unlink()",
+			"f.close()",
+			"f.write('hello')",
+			"f = open('test/a.txt', 'w')",
+			"with open('test/a.txt', 'w') as f: // f.write('hello')",
+			"with open('a.txt', 'w') as f",
+			"with open('a.txt', 'w') as f:",
+			"Path('test').mkdir()",
+			"from pathlib import Path",
+			"os.system('cls')",
+			"clear",
+			"print(os.getcwd())",
+			"os.pwd()",
+			"os.system('dir')",
+			"print(os.pwd())",
+			"import sys",
+			"import os",
+			"pwd()",
+			"print(\"hello\")",
+			"exit",
+			"echo hello"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/vinhv/Desktop/Physics 2D Platformer SDL -version3",
+		"/C/Users/vinhv/Desktop/Physics 2D Platformer SDL -version3/src"
+	],
+	"file_history":
+	[
+		"/C/Users/vinhv/Desktop/Physics 2D Platformer SDL -version3/CMakeLists.txt",
+		"/C/Users/vinhv/Desktop/NewProject++/src/main.cpp",
+		"/C/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream",
+		"/C/Users/vinhv/Desktop/NewC++/src/main.cpp",
+		"/C/Users/vinhv/Desktop/NewC++/CMakeLists.txt",
+		"/C/Users/vinhv/Desktop/Hava/Program.cs",
+		"/C/Users/vinhv/Desktop/python demo/test.py",
+		"/C/Users/vinhv/Desktop/python demo/breakbrick.py",
+		"/C/Users/vinhv/Desktop/python demo/test.cpp",
+		"/C/Users/vinhv/Desktop/python demo/centre.py",
+		"/C/Users/vinhv/Desktop/hello.py",
+		"/C/Users/vinhv/Desktop/test.out",
+		"/C/Users/vinhv/Desktop/test.inp",
+		"/C/Users/vinhv/Desktop/test.cpp",
+		"/C/Users/vinhv/Desktop/tehl/MyProject/src/main.cpp",
+		"/C/Users/vinhv/Desktop/tehl/MyProject/CMakeLists.txt",
+		"/C/Users/vinhv/Documents/Multi-Media Projects/Physics 2D Platformer SDL/Physics 2D Platformer SDL.sublime-project",
+		"/C/Users/vinhv/Desktop/tehl/CMakeLists.txt",
+		"/C/Users/vinhv/Desktop/tehl/main.cpp",
+		"/C/Users/vinhv/AppData/Roaming/Sublime Text/Packages/User/LSP-clangd.sublime-settings",
+		"/C/Users/vinhv/AppData/Roaming/Sublime Text/Packages/LSP-clangd/LSP-clangd.sublime-settings",
+		"/C/Users/vinhv/AppData/Roaming/Sublime Text/Packages/LSP/LSP.sublime-settings",
+		"/C/Users/vinhv/AppData/Roaming/Sublime Text/Packages/LSP-clangd/sublime-package.json",
+		"/C/Users/vinhv/Documents/hello.py",
+		"/C/Users/vinhv/AppData/Roaming/Sublime Text/Packages/C++/C++ Single File.sublime-build",
+		"/C/Users/vinhv/AppData/Roaming/Sublime Text/Packages/C++/C Single File.sublime-build",
+		"/C/Users/vinhv/AppData/Roaming/Sublime Text/Packages/User/Build C++ Single file.sublime-build",
+		"/C/Users/vinhv/AppData/Roaming/Sublime Text/Packages/User/Build C Single file.sublime-build",
+		"/C/Users/vinhv/AppData/Roaming/Sublime Text/Packages/User/Build C# Single file.sublime-build",
+		"/C/Users/vinhv/AppData/Roaming/Sublime Text/Packages/C++/C Standard Includes.sublime-completions",
+		"/C/Users/vinhv/AppData/Roaming/Sublime Text/Packages/C++/C++ Standard Includes.sublime-completions",
+		"/C/Users/vinhv/AppData/Roaming/Sublime Text/Packages/C++/C++.sublime-settings",
+		"/C/Users/vinhv/AppData/Roaming/Sublime Text/Packages/C++/C++.sublime-syntax",
+		"/C/Users/vinhv/AppData/Roaming/Sublime Text/Packages/C++/C.sublime-syntax",
+		"/C/Users/vinhv/AppData/Roaming/Sublime Text/Packages/C#/C#.sublime-syntax",
+		"/C/Users/vinhv/AppData/Roaming/Sublime Text/Packages/User/Build Python.sublime-build",
+		"/C/Users/vinhv/AppData/Roaming/Sublime Text/Packages/User/Package Control.sublime-settings",
+		"/C/Users/vinhv/AppData/Roaming/Sublime Text/Packages/Python/Python.sublime-build",
+		"/C/Users/vinhv/AppData/Roaming/Sublime Text/Packages/Python.sublime-package",
+		"/C/Users/vinhv/Documents/Arduino/PlatformIO Core/UltrasonicSensor/uno-ultra.sublime-project",
+		"/C/Users/vinhv/Documents/Arduino/PlatformIO Core/UltrasonicSensor/src/main.py",
+		"/C/Users/vinhv/Documents/Arduino/PlatformIO Core/UltrasonicSensor/src/main.cpp",
+		"/C/Users/vinhv/Documents/Arduino/PlatformIO Core/UltrasonicSensor/platformio.ini",
+		"/C/Users/vinhv/Documents/Arduino/PlatformIO Core/UltrasonicSensor/lib/README",
+		"/C/Users/vinhv/Documents/Arduino/PlatformIO Core/UltrasonicSensor/test/README",
+		"/C/Users/vinhv/Documents/Arduino/PlatformIO Core/UltrasonicSensor/.gitignore",
+		"/C/Users/vinhv/Desktop/get-platformio.py",
+		"/C/Users/vinhv/AppData/Local/Programs/Python/Python312/Lib/site-packages/pygame/examples/aliens.py",
+		"/C/Users/vinhv/Desktop/test.py",
+		"/C/Users/vinhv/Desktop/main.py",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/color.py",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/graphics.py",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/game.py",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/repository.py",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/active_objects.py",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/food.py",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/snake.py",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/background.py",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/board.py",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/program.py",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/snake_and_food_manager.py",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/apple.py",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/main.py",
+		"/C/Users/vinhv/Documents/Python/stuff_old/.project/mariobros/Super Mario Game Source Code In Python/Next/Core.py",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/pyrightconfig.json",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/__init__.py",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/panel.py",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/game_core.py",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/core.py",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/window.py",
+		"/C/Users/vinhv/Documents/Python/stuff_old/.project/mariobros/main/worlddata1.json",
+		"/C/Users/vinhv/Documents/Python/stuff_old/.project/mariobros/main/worlddata.json",
+		"/C/Users/vinhv/Documents/Python/stuff_old/.project/mariobros/app/Super Mario Bros/Super Mario Bros/worlddata1.json",
+		"/C/Users/vinhv/Documents/Python/stuff_old/.project/mariobros/app/Super Mario Bros/Super Mario Bros/worlddata.json",
+		"/C/Users/vinhv/Documents/Python/stuff_old/.project/mariobros/app/Super Mario Bros/Super Mario Bros/app.py",
+		"/C/Users/vinhv/Documents/Python/stuff_old/.project/mariobros/app/Super Mario Bros/Super Mario Bros/Map.py",
+		"/C/Users/vinhv/Documents/Python/stuff_old/.project/mariobros/app/Super Mario Bros/Super Mario Bros/MainMenu.py",
+		"/C/Users/vinhv/Documents/Python/stuff_old/.project/mariobros/app/Super Mario Bros/Super Mario Bros/Core.py",
+		"/C/Users/vinhv/Documents/Python/stuff_old/.project/mariobros/app/Super Mario Bros/Super Mario Bros/Manager.py",
+		"/C/Users/vinhv/Documents/Python/stuff_old/.project/mariobros/app/Super Mario Bros/Super Mario Bros/Init_game.py",
+		"/C/Users/vinhv/Documents/Python/stuff_old/.project/mariobros/main/Init_game.py",
+		"/C/Users/vinhv/Documents/Python/stuff_old/.project/mariobros/main/version.txt",
+		"/C/Users/vinhv/Documents/Python/stuff_old/.project/mariobros/v1.0.0.2/map_data.json",
+		"/C/Users/vinhv/Documents/Python/stuff_old/.project/mariobros/app/Super Mario Bros/Super Mario Bros/datagame.json",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/const.py",
+		"/C/Users/vinhv/Documents/Python/SnakeGame/SnakeGame.sublime-project",
+		"/C/Users/vinhv/Documents/Python/stuff_old/.major/working_with_internet/main.py",
+		"/C/Users/vinhv/Documents/Python/stuff_old/.project/multiplayer/network.py",
+		"/C/Users/vinhv/Documents/Python/stuff_old/.project/multiplayer/server.py",
+		"/C/Users/vinhv/Documents/Python/stuff_old/.project/multiplayer/client.py",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks15/solution/solution/SUM.out",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks15/solution/solution/SUM.inp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks15/solution/solution/SUM.cpp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks15/solution/solution/PAL.out",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks15/solution/solution/PAL.inp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks15/solution/solution/PAL.cpp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks15/solution/solution/KNI.out",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks15/solution/solution/KNI.inp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks15/solution/solution/KNI.cpp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks14/solution/solution/JERRY.out",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks14/solution/solution/JERRY.inp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks14/solution/solution/MIX.cpp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks14/solution/solution/JERRY.cpp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks14/solution/solution/MOONCAKE.out",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks14/solution/solution/MOONCAKE.inp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks14/solution/solution/MOONCAKE.cpp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks14/solution/solution/BAI2.cpp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks14/solution/solution/BAI2.out",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks14/solution/solution/BAI2.inp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks14/solution/solution/MIX.out",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks14/solution/solution/MIX.inp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks12/solution/solution/MATKHAU.out",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks12/solution/solution/MATKHAU.inp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks12/solution/solution/MATKHAU.cpp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks12/solution/solution/BOBASO.out",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks12/solution/solution/BOBASO.inp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks12/solution/solution/BOBASO.cpp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks12/solution/solution/BINHCHON.out",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks12/solution/solution/BINHCHON.inp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks12/solution/solution/BINHCHON.cpp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks12/solution/solution/CHUHOA.cpp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks12/solution/solution/CHUHOA.inp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks12/solution/solution/CHUHOA.out",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks11/solution/solution/HOAHONG.out",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks11/solution/solution/HOAHONG.inp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks11/solution/solution/HOAHONG.cpp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks11/solution/solution/CHIABA.cpp",
+		"/C/Users/vinhv/Documents/hsgTin/Tasks11/solution/solution/CHIABA.out"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"response",
+			"distance",
+			"response",
+			"self",
+			"Graphics",
+			"Background",
+			"pygame",
+			")",
+			"name",
+			"world",
+			"world1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/main.cpp",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								42
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								},
+								{
+									"characters": ".<>:\"/*",
+									"selector": "punctuation.accessor | (meta.preprocessor.include string - punctuation.definition.string.end)",
+									"server": "clangd"
+								}
+							],
+							"lsp_active": true,
+							"lsp_uri": "file:///C:/Users/vinhv/Desktop/Physics%202D%20Platformer%20SDL%20-version3/src/main.cpp",
+							"show_definitions": false,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Debugger":
+	{
+		"height": 192.0
+	},
+	"output.Debugger Console":
+	{
+		"height": 192.0
+	},
+	"output.LSP Log Panel":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.Terminus":
+	{
+		"height": 138.0,
+		"history":
+		[
+		]
+	},
+	"output.Terminus Build Results":
+	{
+		"height": 133.0,
+		"history":
+		[
+		]
+	},
+	"output.diagnostics":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.exec":
+	{
+		"height": 135.0,
+		"history":
+		[
+		]
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "Physics2D.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\vinhv\\Documents\\Java\\Bank System\\Bank System.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"lsp_show_inlay_hints": false
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 171.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
