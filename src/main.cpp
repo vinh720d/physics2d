@@ -2,7 +2,7 @@
 #include <iostream>
 
 
-
+const int WIDTH = 700, HEIGHT = 500;
 static SDL_Window *window = NULL;
 static SDL_Renderer *renderer = NULL;
 bool RUNNING = true;
@@ -33,7 +33,7 @@ int render_thread(void *data)
 		const float green = (float) (0.5 + 0.5 * SDL_sin(now + SDL_PI_D * 2 / 3));
 		const float blue = (float) (0.5 + 0.5 * SDL_sin(now + SDL_PI_D * 4 / 3));
 
-		SDL_SetRenderDrawColorFloat(renderer, red, green, blue, SDL_ALPHA_OPAQUE_FLOAT);
+		SDL_SetRenderDrawColorFloat(renderer, red, green, blue, 1.0f);
 
 		SDL_RenderPresent(renderer);
 
@@ -50,12 +50,12 @@ int main(int argc, const char *argv[])
 		return 1;
 	}
 
-	if (!SDL_CreateWindowAndRenderer("First SDL app!", 1000, 618, SDL_WINDOW_RESIZABLE, &window, &renderer)) {
+	if (!SDL_CreateWindowAndRenderer("First SDL app!", WIDTH, HEIGHT, SDL_WINDOW_RESIZABLE, &window, &renderer)) {
 		std::cout << "Couldn't create window/renderer: " << SDL_GetError() << std::endl;
 		return 2;
 	}
 
-	SDL_Thread *thread = SDL_CreateThread(render_thread, NULL, NULL);
+	SDL_Thread *theSecondary = SDL_CreateThread(render_thread, NULL, NULL);
 	SDL_Event event;
 	while (RUNNING) {
 		while (SDL_PollEvent(&event)) {
@@ -65,7 +65,7 @@ int main(int argc, const char *argv[])
 		}
 		clock1.tick(60);
 	}
-	SDL_WaitThread(thread, NULL);
+	SDL_WaitThread(theSecondary, NULL);
 	SDL_DestroyWindow(window);
 	SDL_DestroyRenderer(renderer);
 	SDL_Quit();
