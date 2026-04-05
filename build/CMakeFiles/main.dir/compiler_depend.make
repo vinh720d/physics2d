@@ -62,6 +62,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: C:/Users/vinhv/Desktop/Physics\ 2D\ Platfo
   C:/SDL3-w64/include/SDL3/SDL_tray.h \
   C:/SDL3-w64/include/SDL3/SDL_version.h \
   C:/SDL3-w64/include/SDL3/SDL_video.h \
+  C:/SDL3-w64/include/SDL3_image/SDL_image.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
@@ -354,8 +355,6 @@ C:/SDL3-w64/include/SDL3/SDL_process.h:
 
 C:/SDL3-w64/include/SDL3/SDL_rect.h:
 
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h:
-
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list:
 
 C:/SDL3-w64/include/SDL3/SDL_render.h:
@@ -367,6 +366,10 @@ C:/SDL3-w64/include/SDL3/SDL_system.h:
 C:/SDL3-w64/include/SDL3/SDL_storage.h:
 
 C:/SDL3-w64/include/SDL3/SDL_thread.h:
+
+C:/SDL3-w64/include/SDL3_image/SDL_image.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h:
 

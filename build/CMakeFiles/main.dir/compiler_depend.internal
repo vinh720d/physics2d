@@ -63,6 +63,7 @@ CMakeFiles/main.dir/src/main.cpp.obj
  C:/SDL3-w64/include/SDL3/SDL_tray.h
  C:/SDL3-w64/include/SDL3/SDL_version.h
  C:/SDL3-w64/include/SDL3/SDL_video.h
+ C:/SDL3-w64/include/SDL3_image/SDL_image.h
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h

@@ -1,4 +1,7 @@
+#include "SDL3/SDL_rect.h"
+#include "SDL3/SDL_render.h"
 #include <SDL3/SDL.h>
+#include <SDL3_image/SDL_image.h>
 #include <iostream>
 
 
@@ -6,6 +9,10 @@ const int WIDTH = 700, HEIGHT = 500;
 static SDL_Window *window = NULL;
 static SDL_Renderer *renderer = NULL;
 bool RUNNING = true;
+
+SDL_FRect dst = {100.0f, 100.0f, 300.0f, 300.0f};
+SDL_Texture *img = NULL;
+
 
 struct Clock
 {
@@ -28,12 +35,9 @@ int render_thread(void *data)
 	while (RUNNING) {
 		SDL_RenderClear(renderer);
 
-		const double now = ((double)SDL_GetTicks()) / 1000.0;
-		const float red = (float) (0.5 + 0.5 * SDL_sin(now));
-		const float green = (float) (0.5 + 0.5 * SDL_sin(now + SDL_PI_D * 2 / 3));
-		const float blue = (float) (0.5 + 0.5 * SDL_sin(now + SDL_PI_D * 4 / 3));
+		SDL_SetRenderDrawColorFloat(renderer, 1.0f, 1.0f, 1.0f, 1.0f);
 
-		SDL_SetRenderDrawColorFloat(renderer, red, green, blue, 1.0f);
+		SDL_RenderTexture(renderer, img, NULL, &dst);
 
 		SDL_RenderPresent(renderer);
 
@@ -53,6 +57,11 @@ int main(int argc, const char *argv[])
 	if (!SDL_CreateWindowAndRenderer("First SDL app!", WIDTH, HEIGHT, SDL_WINDOW_RESIZABLE, &window, &renderer)) {
 		std::cout << "Couldn't create window/renderer: " << SDL_GetError() << std::endl;
 		return 2;
+	}
+	img = IMG_LoadTexture(renderer, "./res/princess.png");
+	if (!img) {
+		std::cout << "Failed to load image: " << SDL_GetError() << std::endl;
+		return 3;
 	}
 
 	SDL_Thread *theSecondary = SDL_CreateThread(render_thread, NULL, NULL);
