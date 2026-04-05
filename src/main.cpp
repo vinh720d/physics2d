@@ -5,6 +5,7 @@
 
 static SDL_Window *window = NULL;
 static SDL_Renderer *renderer = NULL;
+bool RUNNING = true;
 
 struct Clock
 {
@@ -20,7 +21,26 @@ struct Clock
 		}
 		last = SDL_GetTicks();
 	}
-} clock;
+} clock1, clock2;
+
+int render_thread(void *data)
+{
+	while (RUNNING) {
+		SDL_RenderClear(renderer);
+
+		const double now = ((double)SDL_GetTicks()) / 1000.0;
+		const float red = (float) (0.5 + 0.5 * SDL_sin(now));
+		const float green = (float) (0.5 + 0.5 * SDL_sin(now + SDL_PI_D * 2 / 3));
+		const float blue = (float) (0.5 + 0.5 * SDL_sin(now + SDL_PI_D * 4 / 3));
+
+		SDL_SetRenderDrawColorFloat(renderer, red, green, blue, SDL_ALPHA_OPAQUE_FLOAT);
+
+		SDL_RenderPresent(renderer);
+
+		clock2.tick(60);
+	}
+	return 0;
+}
 
 
 int main(int argc, const char *argv[])
@@ -35,7 +55,7 @@ int main(int argc, const char *argv[])
 		return 2;
 	}
 
-	bool RUNNING = true;
+	SDL_Thread *thread = SDL_CreateThread(render_thread, NULL, NULL);
 	SDL_Event event;
 	while (RUNNING) {
 		while (SDL_PollEvent(&event)) {
@@ -43,20 +63,9 @@ int main(int argc, const char *argv[])
 				RUNNING = false;
 			}
 		}
-
-		SDL_RenderClear(renderer);
-
-		const double now = ((double)SDL_GetTicks()) / 1000.0;
-		const float red = (float) (0.5 + 0.5 * SDL_sin(now));
-		const float green = (float) (0.5 + 0.5 * SDL_sin(now + SDL_PI_D * 2 / 3));
-		const float blue = (float) (0.5 + 0.5 * SDL_sin(now + SDL_PI_D * 4 / 3));
-
-		SDL_SetRenderDrawColorFloat(renderer, red, green, blue, SDL_ALPHA_OPAQUE_FLOAT);
-
-		SDL_RenderPresent(renderer);
-
-		clock.tick(60);
+		clock1.tick(60);
 	}
+	SDL_WaitThread(thread, NULL);
 	SDL_DestroyWindow(window);
 	SDL_DestroyRenderer(renderer);
 	SDL_Quit();
