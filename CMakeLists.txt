@@ -9,4 +9,4 @@ link_directories(C:/SDL3-w64/lib)
 
 add_executable(main src/main.cpp)
 
-target_link_libraries(main mingw32 SDL3 SDL3_image)
+target_link_libraries(main mingw32 SDL3 SDL3_image user32 gdi32 kernel32 winmm imm32 ole32 oleaut32 uuid version)
