@@ -1,3 +1,5 @@
+#include "SDL3/SDL_events.h"
+#include "SDL3/SDL_init.h"
 #include "SDL3/SDL_rect.h"
 #include "SDL3/SDL_render.h"
 #include <SDL3/SDL.h>
@@ -10,7 +12,8 @@ static SDL_Window *window = NULL;
 static SDL_Renderer *renderer = NULL;
 bool RUNNING = true;
 
-SDL_FRect dst = {100.0f, 100.0f, 300.0f, 300.0f};
+float x = 100.0f;
+SDL_FRect dst = {x, 100.0f, 300.0f, 300.0f};
 SDL_Texture *img = NULL;
 
 
@@ -71,7 +74,12 @@ int main(int argc, const char *argv[])
 			if (event.type == SDL_EVENT_QUIT) {
 				RUNNING = false;
 			}
+			if (event.type == SDL_EVENT_KEY_UP) {
+				x += 5;
+				dst = {x, 100.0f, 300.0f, 300.0f};
+			}
 		}
+
 		clock1.tick(60);
 	}
 	SDL_WaitThread(theSecondary, NULL);

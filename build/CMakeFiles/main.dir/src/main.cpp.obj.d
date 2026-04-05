@@ -1,6 +1,6 @@
 CMakeFiles/main.dir/src/main.cpp.obj: \
  C:\Users\vinhv\Desktop\Physics\ 2D\ Platformer\ SDL\ -version3\src\main.cpp \
- C:/SDL3-w64/include/SDL3/SDL_rect.h \
+ C:/SDL3-w64/include/SDL3/SDL_events.h \
  C:/SDL3-w64/include/SDL3/SDL_stdinc.h \
  C:/SDL3-w64/include/SDL3/SDL_platform_defines.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
@@ -28,12 +28,9 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
  C:/SDL3-w64/include/SDL3/SDL_begin_code.h \
  C:/SDL3-w64/include/SDL3/SDL_close_code.h \
- C:/SDL3-w64/include/SDL3/SDL_error.h \
- C:/SDL3-w64/include/SDL3/SDL_render.h \
- C:/SDL3-w64/include/SDL3/SDL_blendmode.h \
- C:/SDL3-w64/include/SDL3/SDL_events.h \
  C:/SDL3-w64/include/SDL3/SDL_audio.h \
  C:/SDL3-w64/include/SDL3/SDL_endian.h \
+ C:/SDL3-w64/include/SDL3/SDL_error.h \
  C:/SDL3-w64/include/SDL3/SDL_mutex.h \
  C:/SDL3-w64/include/SDL3/SDL_atomic.h \
  C:/SDL3-w64/include/SDL3/SDL_thread.h \
@@ -45,6 +42,8 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/SDL3-w64/include/SDL3/SDL_camera.h \
  C:/SDL3-w64/include/SDL3/SDL_pixels.h \
  C:/SDL3-w64/include/SDL3/SDL_surface.h \
+ C:/SDL3-w64/include/SDL3/SDL_blendmode.h \
+ C:/SDL3-w64/include/SDL3/SDL_rect.h \
  C:/SDL3-w64/include/SDL3/SDL_gamepad.h \
  C:/SDL3-w64/include/SDL3/SDL_guid.h \
  C:/SDL3-w64/include/SDL3/SDL_joystick.h \
@@ -55,7 +54,8 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/SDL3-w64/include/SDL3/SDL_scancode.h \
  C:/SDL3-w64/include/SDL3/SDL_video.h \
  C:/SDL3-w64/include/SDL3/SDL_mouse.h C:/SDL3-w64/include/SDL3/SDL_pen.h \
- C:/SDL3-w64/include/SDL3/SDL_touch.h C:/SDL3-w64/include/SDL3/SDL_gpu.h \
+ C:/SDL3-w64/include/SDL3/SDL_touch.h C:/SDL3-w64/include/SDL3/SDL_init.h \
+ C:/SDL3-w64/include/SDL3/SDL_render.h C:/SDL3-w64/include/SDL3/SDL_gpu.h \
  C:/SDL3-w64/include/SDL3/SDL.h C:/SDL3-w64/include/SDL3/SDL_assert.h \
  C:/SDL3-w64/include/SDL3/SDL_asyncio.h \
  C:/SDL3-w64/include/SDL3/SDL_bits.h \
@@ -66,7 +66,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/SDL3-w64/include/SDL3/SDL_filesystem.h \
  C:/SDL3-w64/include/SDL3/SDL_haptic.h \
  C:/SDL3-w64/include/SDL3/SDL_hidapi.h \
- C:/SDL3-w64/include/SDL3/SDL_hints.h C:/SDL3-w64/include/SDL3/SDL_init.h \
+ C:/SDL3-w64/include/SDL3/SDL_hints.h \
  C:/SDL3-w64/include/SDL3/SDL_loadso.h \
  C:/SDL3-w64/include/SDL3/SDL_locale.h C:/SDL3-w64/include/SDL3/SDL_log.h \
  C:/SDL3-w64/include/SDL3/SDL_messagebox.h \
