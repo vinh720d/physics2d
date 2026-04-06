@@ -1,8 +1,0 @@
-[
-{
-  "directory": "C:/Users/vinhv/Desktop/Physics 2D Platformer SDL -version3/build",
-  "command": "C:\\mingw64\\bin\\c++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c \"C:\\Users\\vinhv\\Desktop\\Physics 2D Platformer SDL -version3\\src\\main.cpp\"",
-  "file": "C:/Users/vinhv/Desktop/Physics 2D Platformer SDL -version3/src/main.cpp",
-  "output": "CMakeFiles/main.dir/src/main.cpp.obj"
-}
-]
