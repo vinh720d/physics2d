@@ -1,7 +1,3 @@
-#include "SDL3/SDL_events.h"
-#include "SDL3/SDL_init.h"
-#include "SDL3/SDL_rect.h"
-#include "SDL3/SDL_render.h"
 #include <SDL3/SDL.h>
 #include <SDL3_image/SDL_image.h>
 #include <iostream>
@@ -36,6 +32,7 @@ struct Clock
 int render_thread(void *data)
 {
 	while (RUNNING) {
+
 		SDL_RenderClear(renderer);
 
 		SDL_SetRenderDrawColorFloat(renderer, 1.0f, 1.0f, 1.0f, 1.0f);
