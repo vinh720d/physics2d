@@ -1,1 +1,0 @@
-  -L"C:/SDL3-w64/lib"  -lmingw32 -lSDL3 -lSDL3_image -luser32 -lgdi32 -lkernel32 -lwinmm -limm32 -lole32 -loleaut32 -luuid -lversion -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
