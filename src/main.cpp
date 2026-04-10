@@ -58,7 +58,7 @@ int main(int argc, const char *argv[])
 		std::cout << "Couldn't create window/renderer: " << SDL_GetError() << std::endl;
 		return 2;
 	}
-	img = IMG_LoadTexture(renderer, "./res/princess.png");
+	img = IMG_LoadTexture(renderer, "./res/the_girl.png");
 	if (!img) {
 		std::cout << "Failed to load image: " << SDL_GetError() << std::endl;
 		return 3;
