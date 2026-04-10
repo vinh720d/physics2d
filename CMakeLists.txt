@@ -4,8 +4,8 @@ project("Physics 2D Platformer SDL -version3")
 
 set(CMAKE_CXX_STANDARD 17)
 
-include_directories(include C:/SDL3-w64/include)
-link_directories(C:/SDL3-w64/lib)
+include_directories(include SDL3-w64/include)
+link_directories(SDL3-w64/lib)
 
 add_executable(main src/main.cpp)
 
