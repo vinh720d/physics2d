@@ -7,6 +7,11 @@ set(CMAKE_CXX_STANDARD 17)
 include_directories(include SDL3-w64/include)
 link_directories(SDL3-w64/lib)
 
-add_executable(main src/main.cpp)
+add_executable(
+main 
+src/main.cpp 
+src/RendererWindow.cpp 
+src/Clock.cpp
+)
 
 target_link_libraries(main mingw32 SDL3 SDL3_image user32 gdi32 kernel32 winmm imm32 ole32 oleaut32 uuid version)
