@@ -34,6 +34,11 @@ void RenderWindow::setRendererColorFloat(float r, float g, float b, float a)
 	SDL_SetRenderDrawColorFloat(renderer, r, g, b, a);
 }
 
+void RenderWindow::setRendererColor(Uint8 r, Uint8 g, Uint8 b, Uint8 a)
+{
+	SDL_SetRenderDrawColor(renderer, r, g, b, a);
+}
+
 void RenderWindow::render(SDL_Texture *texture, const SDL_FRect *srcrect, const SDL_FRect *dstrect)
 {
 	SDL_RenderTexture(renderer, texture, srcrect, dstrect);

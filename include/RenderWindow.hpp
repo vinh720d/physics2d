@@ -11,6 +11,7 @@ public:
 	void cleanUp();
 	void clearRenderer();
 	void setRendererColorFloat(float r, float g, float b, float a);
+	void setRendererColor(Uint8 r, Uint8 g, Uint8 b, Uint8 a);
 	void render(SDL_Texture *texture, const SDL_FRect *srcrect, const SDL_FRect *dstrect);
 	void renderScreen();
 	SDL_Texture* loadTexture(const char *file);
