@@ -5,10 +5,6 @@
 
 #include "Entity.h"
 
-struct KeysPressed
-{
-	bool keyUp, keyDown, keyRight, keyLeft;
-};
 
 Game::Game() : _window(nullptr), _renderer(nullptr) {}
 
@@ -19,7 +15,7 @@ Game::~Game()
 	SDL_Quit();
 }
 
-KeysPressed keys;
+SDL_Keycode keys;
 Entity player;
 
 void Game::init(const char *title, int width, int height, SDL_WindowFlags window_flags)
@@ -52,46 +48,16 @@ void Game::handle_event()
 		if (event.type == SDL_EVENT_QUIT) {
 			running = false;
 		}
-		if (event.type == SDL_EVENT_KEY_DOWN) {
-			if (event.key.key == SDLK_ESCAPE) {
-				running = false;
-			}
-			if (event.key.key == SDLK_UP) {
-				keys.keyUp = true;
-			}
-			if (event.key.key == SDLK_DOWN) {
-				keys.keyDown = true;
-			}
-			if (event.key.key == SDLK_RIGHT) {
-				keys.keyRight = true;
-			}
-			if (event.key.key == SDLK_LEFT) {
-				keys.keyLeft = true;
-			}
-		}
-		if (event.type == SDL_EVENT_KEY_UP) {
-			if (event.key.key == SDLK_UP) {
-				keys.keyUp = false;
-			}
-			if (event.key.key == SDLK_DOWN) {
-				keys.keyDown = false;
-			}
-			if (event.key.key == SDLK_RIGHT) {
-				keys.keyRight = false;
-			}
-			if (event.key.key == SDLK_LEFT) {
-				keys.keyLeft = false;
-			}
-		}
+		keys = event.key.key;
 	}
 }
 
 void Game::update()
 {
-	if (keys.keyDown) player.move(0.0f, 5.0f);
-	else if (keys.keyUp) player.move(0.0f, -5.0f);
-	if (keys.keyRight) player.move(5.0f, 0.0f);
-	else if (keys.keyLeft) player.move(-5.0f, 0.0f);
+	if (keys == SDLK_DOWN) player.move(0.0f, 5.0f);
+	else if (keys == SDLK_UP) player.move(0.0f, -5.0f);
+	if (keys == SDLK_RIGHT) player.move(5.0f, 0.0f);
+	else if (keys == SDLK_LEFT) player.move(-5.0f, 0.0f);
 }
 
 void Game::render()
