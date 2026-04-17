@@ -1,9 +1,16 @@
 #include "Game.h"
 #include <SDL3/SDL.h>
 #include <SDL3_image/SDL_image.h>
-#include <cstddef>
 
-#include "Entity.h"
+#include "Utils.h"
+#include "GameLogics.h"
+
+
+Utils uu;
+GameLogics gl;
+SDL_Keycode keys;
+
+
 
 
 Game::Game() : _window(nullptr), _renderer(nullptr) {}
@@ -15,9 +22,6 @@ Game::~Game()
 	SDL_Quit();
 }
 
-SDL_Keycode keys;
-Entity player;
-
 void Game::init(const char *title, int width, int height, SDL_WindowFlags window_flags)
 {
 	if (!SDL_Init(SDL_INIT_VIDEO)) {
@@ -28,17 +32,6 @@ void Game::init(const char *title, int width, int height, SDL_WindowFlags window
 		SDL_Log("Couldn't create window/renderer: %s\n", SDL_GetError());
 	}
 	running = true;
-	player = Entity(loadTexture("./res/the_girl.png"), {100.0f, 100.0f, 128.0f, 128.0f});
-	keys = {0};
-}
-
-SDL_Texture* Game::loadTexture(const char *file)
-{
-	SDL_Texture *img = IMG_LoadTexture(_renderer, file);
-	if (!img) {
-		SDL_Log("Couldn't load texture: %s\n", SDL_GetError());
-	}
-	return img;
 }
 
 void Game::handle_event()
@@ -48,22 +41,32 @@ void Game::handle_event()
 		if (event.type == SDL_EVENT_QUIT) {
 			running = false;
 		}
-		keys = event.key.key;
+		if (event.type == SDL_EVENT_KEY_DOWN)
+			keys = event.key.key;
+		else if (event.type == SDL_EVENT_KEY_UP)
+			keys = 0;
 	}
 }
 
 void Game::update()
 {
-	if (keys == SDLK_DOWN) player.move(0.0f, 5.0f);
-	else if (keys == SDLK_UP) player.move(0.0f, -5.0f);
-	if (keys == SDLK_RIGHT) player.move(5.0f, 0.0f);
-	else if (keys == SDLK_LEFT) player.move(-5.0f, 0.0f);
+	gl.update(this);
 }
 
 void Game::render()
 {
-	SDL_SetRenderDrawColor(_renderer, 255, 255, 255, 255);
+	SDL_SetRenderDrawColor(_renderer, 36, 33, 33, 255);
 	SDL_RenderClear(_renderer);
-	SDL_RenderTexture(_renderer, player.get_img(), NULL, player.get_dst());
+	gl.render(_renderer);
 	SDL_RenderPresent(_renderer);
+}
+
+SDL_Window* Game::get_window()
+{
+	return _window;
+}
+
+SDL_Renderer* Game::get_renderer()
+{
+	return _renderer;
 }

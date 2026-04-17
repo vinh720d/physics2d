@@ -11,10 +11,11 @@ public:
 	~Game();
 	bool running;
 	void init(const char *title, int width, int height, SDL_WindowFlags window_flags);
-	SDL_Texture* loadTexture(const char *file);
 	void handle_event();
 	void update();
 	void render();
+	SDL_Window* get_window();
+	SDL_Renderer* get_renderer();
 private:
 	SDL_Window *_window;
 	SDL_Renderer *_renderer;
