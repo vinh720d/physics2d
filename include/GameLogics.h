@@ -13,8 +13,8 @@ public:
 	void update(Game *gg);
 	void render(SDL_Renderer *renderer);
 private:
-	float radius = 100.0f;
-	float x = 0.0f, y = 0.0f;
+	float w = 200.0f, h = 200.0f;
+	float x, y;
 };
 
 #endif

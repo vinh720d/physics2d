@@ -10,7 +10,7 @@ Clock g_clock;
 
 int main(int argc, const char *argv[])
 {
-	gg.init("This is my first SDL program!", WIDTH, HEIGHT, SDL_WINDOW_MAXIMIZED);
+	gg.init("This is my first SDL program!", WIDTH, HEIGHT, SDL_WINDOW_RESIZABLE);
 
 	while (gg.running) {
 		gg.handle_event();
