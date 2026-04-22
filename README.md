@@ -23,3 +23,4 @@ bash:
 cmake -B build -DCMAKE_INSTALL_PREFIX=. -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G "MinGW Makefiles"
 cmake --build build
 cmake --install build
+
