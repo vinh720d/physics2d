@@ -16,7 +16,7 @@ install(TARGETS main
     RUNTIME DESTINATION release
 )
 
-file(GLOB_RECURSE SDL_DLLS "C:/SDL3-64/bin/*.dll")
+file(GLOB_RECURSE SDL_DLLS "C:/SDL3-w64/bin/*.dll")
 file(GLOB_RECURSE MINGW_DLLS "C:/mingw64/bin/*.dll")
 
 install(FILES
