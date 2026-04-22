@@ -11,6 +11,7 @@ class GameLogics
 public:
 	GameLogics();
 	~GameLogics();
+	void drawCircle(SDL_Renderer *renderer, int x, int y, int radius);
 	void update(Game *gg);
 	void render(SDL_Renderer *renderer);
 private:
