@@ -9,8 +9,8 @@ class Entity
 {
 public:
 	Entity();
+	~Entity();
 	Entity(SDL_Texture *img, SDL_FRect dst);
-	void cleanUp();
 	SDL_Texture* get_img();
 	SDL_FRect* get_dst();
 	void move(float delta_x, float delta_y);

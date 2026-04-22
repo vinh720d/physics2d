@@ -10,7 +10,7 @@ Entity::Entity()
 Entity::Entity(SDL_Texture *img, SDL_FRect dst)
 : _img(img), _dst(dst) {}
 
-void Entity::cleanUp()
+Entity::~Entity()
 {
 	SDL_DestroyTexture(_img);
 }

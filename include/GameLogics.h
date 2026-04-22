@@ -10,13 +10,12 @@ class GameLogics
 {
 public:
 	GameLogics();
-	void buildGradient(SDL_Renderer *renderer);
+	~GameLogics();
 	void update(Game *gg);
 	void render(SDL_Renderer *renderer);
 private:
-	float w = 200.0f, h = 200.0f;
-	float x, y;
-	SDL_Texture *gradientTexture = NULL;
+	//
+	
 };
 
 #endif
