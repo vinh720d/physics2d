@@ -2,6 +2,7 @@
 #include <SDL3/SDL.h>
 #include <SDL3_image/SDL_image.h>
 
+#include "SDL3/SDL_events.h"
 #include "Utils.h"
 #include "GameLogics.h"
 
@@ -38,6 +39,11 @@ void Game::handle_event()
 {
 	SDL_Event event;
 	while (SDL_PollEvent(&event)) {
+		if (event.type == SDL_EVENT_MOUSE_BUTTON_DOWN) {
+			float x = event.button.x;
+			float y = event.button.y;
+			gl.addPoint({x, y});
+		}
 		if (event.type == SDL_EVENT_QUIT) {
 			running = false;
 		}

@@ -6,19 +6,30 @@
 
 GameLogics::GameLogics() {}
 
+void GameLogics::addPoint(SDL_FPoint point)
+{
+	points.push_back(point);
+	SDL_Vertex vt = {
+		point, 
+		{SDL_randf(), SDL_randf(), SDL_randf(), 1.0f}, 
+		{0, 0}
+	};
+	vert.push_back(vt);
+	if (vert.size() >= 3) {
+		if (vert.size() == 3)
+			indices = {0, 1, 2};
+		else {
+			indices.push_back(0);
+			indices.push_back(vert.size() - 2);
+			indices.push_back(vert.size() - 1);
+		}
+	}
+
+}
+
 GameLogics::~GameLogics()
 {
 	//
-}
-
-void GameLogics::drawCircle(SDL_Renderer *renderer, int x, int y, int radius)
-{
-	for (int dy = -radius; dy <= radius; ++dy) {
-		int dx = SDL_sqrt(radius * radius - dy * dy);
-		float color = (float)SDL_abs(dy) / radius / 2;
-		SDL_SetRenderDrawColorFloat(renderer, color, color, color, 1.0f);
-		SDL_RenderLine(renderer, x - dx, y + dy, x + dx, y + dy);
-	}
 }
 
 void GameLogics::update(Game *gg)
@@ -28,5 +39,5 @@ void GameLogics::update(Game *gg)
 
 void GameLogics::render(SDL_Renderer *renderer)
 {
-	drawCircle(renderer, 200.0f, 200.0f, 100);
+	SDL_RenderGeometry(renderer, NULL, vert.data(), vert.size(), indices.data(), indices.size());
 }
