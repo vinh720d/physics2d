@@ -3,6 +3,7 @@
 #include <SDL3_image/SDL_image.h>
 
 #include "SDL3/SDL_events.h"
+#include "SDL3/SDL_keycode.h"
 #include "Utils.h"
 #include "GameLogics.h"
 
@@ -47,8 +48,12 @@ void Game::handle_event()
 		if (event.type == SDL_EVENT_QUIT) {
 			running = false;
 		}
-		if (event.type == SDL_EVENT_KEY_DOWN)
+		if (event.type == SDL_EVENT_KEY_DOWN) {
 			keys = event.key.key;
+			if (event.key.key == SDLK_ESCAPE) {
+				running = false;
+			}
+		}
 		else if (event.type == SDL_EVENT_KEY_UP)
 			keys = 0;
 	}
