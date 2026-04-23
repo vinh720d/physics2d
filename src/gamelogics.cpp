@@ -36,11 +36,19 @@ void GameLogics::render(SDL_Renderer *renderer)
 	if (canvas == NULL) {
 		canvas = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_RGBA8888, SDL_TEXTUREACCESS_TARGET, scr_w, scr_h);
 	}
+		popup = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_RGBA8888, SDL_TEXTUREACCESS_TARGET, 100, 100);
 
 	SDL_SetRenderTarget(renderer, canvas);
 	SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
 	if (painting)
 		draw_circle(renderer, x, y, radius);
 	SDL_SetRenderTarget(renderer, NULL);
+	SDL_SetRenderTarget(renderer, popup);
+	SDL_FRect src = {x - 5, y - 5, 10, 10};
+	SDL_FRect dst = {0, 0, 100, 100};
+	SDL_RenderTexture(renderer, canvas, &src, &dst);
+	SDL_SetRenderTarget(renderer, NULL);
 	SDL_RenderTexture(renderer, canvas, NULL, NULL);
+	dst = {x + 10, y, 100, 100};
+	SDL_RenderTexture(renderer, popup, NULL, &dst);
 }

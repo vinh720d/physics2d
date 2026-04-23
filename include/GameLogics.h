@@ -16,6 +16,7 @@ public:
 	void render(SDL_Renderer *renderer);
 private:
 	SDL_Texture *canvas;
+	SDL_Texture *popup;
 	int scr_w, scr_h;
 	float x, y;
 	float radius = 10.0f;
