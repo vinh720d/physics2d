@@ -19,6 +19,13 @@ install(TARGETS main
 file(GLOB_RECURSE SDL_DLLS "C:/SDL3-w64/bin/*.dll")
 file(GLOB_RECURSE MINGW_DLLS "C:/mingw64/bin/*.dll")
 
+add_custom_command(
+    TARGET main POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+            C:/SDL3-w64/bin/
+            $<TARGET_FILE_DIR:main>
+)
+
 install(FILES
     ${SDL_DLLS}
     ${MINGW_DLLS}
